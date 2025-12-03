@@ -1,0 +1,5 @@
+{
+  "name": "Grandmaster React Chess",
+  "description": "A modern, responsive Chess application featuring a custom AI engine with multiple difficulty levels (Minimax + Alpha-Beta Pruning), move history, and a polished UI.",
+  "requestFramePermissions": []
+}

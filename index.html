@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Grandmaster React Chess</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react": "https://esm.sh/react@18.2.0",
+          "react-dom/client": "https://esm.sh/react-dom@18.2.0/client",
+          "react/jsx-runtime": "https://esm.sh/react@18.2.0/jsx-runtime",
+          "chess.js": "https://esm.sh/chess.js@1.0.0-beta.8",
+          "react-chessboard": "https://esm.sh/react-chessboard@4.3.0?external=react,react-dom",
+          "lucide-react": "https://esm.sh/lucide-react@0.263.1?external=react"
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-slate-900 text-slate-100 antialiased overflow-hidden">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>
